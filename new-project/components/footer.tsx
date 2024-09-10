@@ -1,20 +1,22 @@
 export function Footer() {
     return (
-        <div className="bg-slate-600" id="contact">
-            <div className="py-6 pt-6">
-                <div className="flex items-center justify-center">
-                    <h1 className="mx-4 text-3xl font-semibold text-center text-white md:text-4xl">
+        <div className="bg-[#4a5b6a] py-6 md:min-h-[100px]" id="contact">
+            <div className="flex flex-col md:flex-row md:justify-center items-center md:items-center">
+                <div className="mb-6 md:mb-0 md:mr-8">
+                    <h1 className="text-3xl font-semibold text-center text-white md:text-left md:text-4xl">
                         Contact Me
                     </h1>
                 </div>
+                <div className="flex flex-col items-center md:items-start space-y-2">
+                    <h1 className="text-white font-serif">itstararad@gmail.com</h1>
+                    <li className=" list-none text-white font-serif">
+                        <a href="https://www.linkedin.com/in/tara-ghasemi-monfared-rad-2998aa242">Linkedin</a>
+                    </li>
+                    <li className="list-none text-white font-serif">
+                        <a href="https://github.com/taragmrad">GitHub</a>
+                    </li>
+                </div>
             </div>
-            <h1 className="text-white flex flex-row items-center justify-center font-serif">itstararad@gmail.com</h1>
-            <li className="text-white flex items-center justify-center font-serif">
-                <a href="https://www.linkedin.com/in/tara-ghasemi-monfared-rad-2998aa242">Linkedin</a>
-            </li>
-            <li className="text-white flex items-center justify-center font-serif">
-                <a href="https://github.com/taragmrad">GitHub</a>
-            </li>
         </div>
     ); 
 }

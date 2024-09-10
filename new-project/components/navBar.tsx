@@ -12,7 +12,7 @@ export function NavBar() {
   };
 
   return (
-    <nav className="bg-[#220b01] p-4 fixed top-0 w-full z-50">
+    <nav className="bg-[#4a5b6a] p-4 fixed top-0 w-full z-50">
       <div className="container mx-auto justify-between items-cente flex">
         <div className="text-white text-2xl font-bold">
           <a href="#home">TGMR</a>

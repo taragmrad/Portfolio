@@ -33,9 +33,9 @@ body {
 }
 
 .home-bg{
-  background-image: url("/LPbg2.jpg");
-  background-color: #181b4a;
-  background-position: center;
+  background-image: url("/LPbg5.jpg");
+  background-color: black;
+  background-size: 160%;
 }
 
 .studentName {
