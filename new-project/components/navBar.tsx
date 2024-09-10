@@ -41,7 +41,7 @@ export function NavBar() {
         </ul>
       </div>
       {isMenuOpen && (
-        <div className="fixed top-0 left-0 w-full bg-[#220b01] flex flex-col justify-center items-center z-40">
+        <div className="fixed min-h-[70vh] top-0 left-0 w-full bg-[#4a5b6a] flex flex-col justify-center items-center z-40">
           <button onClick={toggleMenu} className='absolute top-4 right-4'>
             <XMarkIcon className='h-8 w-8 text-white'/>
           </button>
