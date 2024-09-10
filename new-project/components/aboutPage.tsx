@@ -8,21 +8,19 @@ export function AboutPage() {
                 </h1>
             </div>
         </div>
-        <div className="px-5">
-            <div className="flex flex-col md:flex-row items-center md:items-start justify-center">
-                {/* My Picture */}
-                <div className="mb-6 md:mb-0 md:mr-6">
-                    <img src="/Tara Rad.jpeg"
-                    alt = "Picture of Tara G.M Rad"
-                    className="w-48 h-48 object-cover"
-                    />
-                </div>
+        <div className="flex flex-col md:flex-row items-center md:justify-center md:items-start justify-center space-x-0 md:space-x-6 text-white">
+            {/* My Picture */}
+            <div className="mb-6 md:mb-0 md:ml-6 ">
+                <img src="/Tara Rad.jpeg"
+                alt = "Picture of Tara G.M Rad"
+                className="w-48 h-48 object-cover md:w-64 md:h-64 lg:w-72 lg:h-72"
+                />
+            </div>
                 {/* Description */}
-                <div className="text-white">
-                    <p className="mb-6">
-                        Hi, my name is <span className="name">Tara Ghasemi Monfared Rad.</span>I am a student at the <span className="uofc"><a href = "https://www.ucalgary.ca" target="_blank">University of Calgary</a></span>, and I am entering my third year of <span className="uofc">Computer Science. I am concentrating on Information Security, and teach myself other skills --like web development-- on the side!</span>
-                    </p>
-                </div>
+            <div className="text-white max-w-xl md:text-left">
+                <p className="mb-6 ml-6">
+                    Hi, my name is <span className="name">Tara Ghasemi Monfared Rad.</span>I am a student at the <span className="uofc"><a href = "https://www.ucalgary.ca" target="_blank">University of Calgary</a></span>, and I am entering my third year of <span className="uofc">Computer Science. I am concentrating on Information Security, and teach myself other skills --like web development-- on the side!</span>
+                </p>
             </div>
         </div>
     </div>

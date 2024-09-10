@@ -9,7 +9,7 @@ export function FunFacts(){
                 </div>
             </div>
             <div className="text-white">
-                <p>
+                <p className="text-center">
                 My hobbies include reading, listening to music, and buying books I know I'm not going to read.
                 </p>
                 <h1 className="font-bold flex flex-row items-center justify-center font-serif">Favourite Artists</h1>
