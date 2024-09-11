@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = EB_Garamond({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tara G.M RAD",
-  description: "Tara's Portfolio",
+  title: "Tara Ghasemi Monfared Rad",
+  description: "This is Tara Ghasemi Monfared Rad's Portfolio!",
 };
 
 export default function RootLayout({

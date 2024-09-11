@@ -9,10 +9,10 @@ export function FunFacts(){
                 </div>
             </div>
             <div className="text-white">
-                <p className="text-center">
+                <p className="text-center px-4">
                 My hobbies include reading, listening to music, and buying books I know I'm not going to read.
                 </p>
-                <h1 className="font-bold flex flex-row items-center justify-center font-serif">Favourite Artists</h1>
+                <h1 className="font-bold flex flex-row items-center justify-center font-serif py-2">Favourite Artists</h1>
                         <ul className="flex flex-wrap items-center justify-center gap-4 mb-6 md:flex md:flex-row">
                             <li className="relative group">
                                 <img 

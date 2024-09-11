@@ -12,8 +12,8 @@ export function NavBar() {
   };
 
   return (
-    <nav className="bg-[#1e4556] p-4 fixed top-0 w-full z-50">
-      <div className="container mx-auto justify-between items-cente flex">
+    <nav className="bg-[#1e4556] p-2 fixed top-0 w-full z-50">
+      <div className="container mx-auto justify-between items-center flex">
         <div className="text-white text-2xl font-bold">
           <a href="#home">TGMR</a>
         </div>
@@ -24,19 +24,40 @@ export function NavBar() {
         </div>
         <ul className={`md:flex md:items-center md:gap-6 ${isMenuOpen ? 'block' : 'hidden'} md:block`}>
           <li>
-            <a href="#home" className="text-white hover:underline ">Home</a>
+            <a href="#home" className="group relative text-white ">
+              Home
+              <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#4d6069] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+            </a>
           </li>
           <li>
-            <a href="#abt-title" className="text-white hover:underline">About</a>
+            <a href="#abt-title" className="group relative text-white">
+              About
+              <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#4d6069] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+            </a>
           </li>
           <li>
-            <a href="#skills" className="text-white hover:underline">Skills</a>
+            <a href="#skills" className="group relative text-white">
+              Skills
+              <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#4d6069] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+            </a>
           </li>
           <li>
-            <a href="#ff" className="text-white hover:underline">More About Me</a>
+            <a href="#proj" className="group relative text-white">
+              Projects
+              <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#4d6069] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+            </a>
           </li>
           <li>
-            <a href="#contact" className="text-white hover:underline">Contact</a>
+            <a href="#ff" className="group relative text-white">
+              More About Me
+              <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#4d6069] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="group relative text-white">
+              Contact
+              <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#4d6069] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+            </a>
           </li>
         </ul>
       </div>
@@ -64,6 +85,12 @@ export function NavBar() {
             <li>
               <a href="#skills" onClick={toggleMenu} className="group relative text-white text-xl">
                 Skills
+                <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#4d6069] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#proj" onClick={toggleMenu} className="group relative text-white text-xl">
+                Projects
                 <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-[#4d6069] transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
               </a>
             </li>

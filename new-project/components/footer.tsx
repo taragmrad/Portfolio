@@ -7,14 +7,19 @@ export function Footer() {
                         Contact Me
                     </h1>
                 </div>
-                <div className="flex flex-col items-center md:items-start space-y-2">
+                <div className="flex flex-col items-center md:items-start space-y-2 ">
                     <h1 className="text-white font-serif">itstararad@gmail.com</h1>
-                    <li className=" list-none text-white font-serif">
-                        <a href="https://www.linkedin.com/in/tara-ghasemi-monfared-rad-2998aa242">Linkedin</a>
+                    <li className=" list-none text-white font-serif relative group">
+                        <a className="group-hover:brightness-75" href="https://www.linkedin.com/in/tara-ghasemi-monfared-rad-2998aa242"target="_blank">Linkedin</a>
                     </li>
-                    <li className="list-none text-white font-serif">
-                        <a href="https://github.com/taragmrad">GitHub</a>
+                    <li className="list-none text-white font-serif relative group">
+                        <a className="group-hover:brightness-75" href="https://github.com/taragmrad"target="_blank">GitHub</a>
                     </li>
+                </div>
+                <div className="text-white px-10 text-xl md:text-2xl relative group pt-3 md:pl-10">
+                    <button className="bg-[#002530] px-4 rounded-full group-hover:brightness-75">
+                        Resume
+                    </button>
                 </div>
             </div>
         </div>

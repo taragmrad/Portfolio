@@ -5,6 +5,7 @@ import { NavBar } from "@/components/navBar";
 import { Skills } from "@/components/skills";
 import { FunFacts } from "@/components/funFacts";
 import { Footer } from "@/components/footer";
+import { Projects } from "@/components/projects";
 export default function Home() {
   return (
       <div className="home-bg flex flex-col w-screen md:w-full h-full bg-cover bg-no-repeat mb-10" id="home">
@@ -15,6 +16,7 @@ export default function Home() {
         </div>
         <AboutPage />
         <Skills/>
+        <Projects/>
         <FunFacts/>
         <Footer/>
       </div>
