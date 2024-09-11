@@ -1,6 +1,6 @@
 export function Footer() {
     return (
-        <div className="bg-[#4a5b6a] py-6 md:min-h-[100px]" id="contact">
+        <div className="bg-[#1e4556] py-6 md:min-h-[100px]" id="contact">
             <div className="flex flex-col md:flex-row md:justify-center items-center md:items-center">
                 <div className="mb-6 md:mb-0 md:mr-8">
                     <h1 className="text-3xl font-semibold text-center text-white md:text-left md:text-4xl">
